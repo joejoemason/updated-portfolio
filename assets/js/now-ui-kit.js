@@ -30,7 +30,7 @@ var nowuiKit,
   $navbar,
   scroll_distance,
   oVal;
-
+  $(document).off('.data-api')
 $(document).ready(function() {
   //  Activate the Tooltips
   $('[data-toggle="tooltip"], [rel="tooltip"]').tooltip();
